@@ -1,0 +1,25 @@
+# import time
+# # 使用import导入time模块使用sleep功能
+# print("你好")
+# time.sleep(5)
+# print("我好")
+# 使用from导入time的sleep功能
+# from time import sleep
+# print("hello")
+# sleep(1)
+# print("world")
+# 使用*导入time模块中的全部功能
+# from time import *
+# print("hello")
+# sleep(1)
+# print("world")
+# 使用as给特定功能加上别名
+# import time as t
+# print("hello")
+# t.sleep(1)
+# print("world")
+
+from time import sleep as sl
+print("hello")
+sl(2)
+print("hello")
