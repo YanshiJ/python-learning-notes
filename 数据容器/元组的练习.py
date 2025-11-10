@@ -1,0 +1,8 @@
+t1 = ("周杰伦",11,["football","music"])
+age = t1.index(11)
+print(age)
+print(t1[0])
+t1[2].pop(0)
+print(t1)
+t1[2].append("coding")
+print(t1)

@@ -1,0 +1,5 @@
+file = open("C:/Users/Yan/Desktop/word.txt","r",encoding="utf-8")
+x = file.read()
+num = x.count("itheima")
+print(num)
+file.close()
